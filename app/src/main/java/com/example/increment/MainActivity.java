@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         inc.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view){
                 count++;
-                z = x * count;
+                z = y * count;
                 total.setText(z + "");
             }
         });
