@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         dec.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view){
                 count--;
-                total.setText(Integer.toString(z));
+                z = y * count;
+                total.setText(z + "");
 
             }
         });
